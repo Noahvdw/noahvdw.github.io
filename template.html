@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Noah | Welkom</title>
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="template.css">
+		<meta charset="utf-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    	<script src="js/smooth-scroll.js"></script>
+	</head>
+	<body>
+		<main>
+
+			<a id="home" class="home"></a>
+			<div class="intro">
+				<div id ="wrap">
+					<ul class="nav">
+
+						<li><a data-scroll href="#home"> Home </a> <p> |</p></li>
+						<li><a data-scroll href="#about"> About </a><p> |</p></li>
+						<li><a data-scroll href="#contact"> Contact </a><p> |</p></li>
+						<li><a data-scroll href="#inspiration"> Inspirations </a></li>
+					</ul>
+				</div>
+				<section>
+					<p class="title">Noah.</p>
+					<p class="info">graphic designer based in antwerp</p>
+				</section>
+
+			</div><!-- end of intro-->
+
+			<div class="about">
+				<a id="about" class="anchor"></a>
+				<p class="ab">About</p>
+				<div class="left">
+						<img src="img/me.jpg">
+				</div>
+
+				<div class="right">
+					<p>Hallo! <br>Mijn naam is Noah Vanden Wyngaerd. Ik ben een grafisch designer van 20 jaar oud. <br><br>
+					Interesses : fotografie, kleding, muziek, bloggen, films. 
+					Designen is voor mij een medium om mijn emoties te uiten.
+					</p>
+				</div>
+			</div><!-- end of about-->
+
+			 <div class="contact">
+			      <p class="co">Contact</p>
+			      <a id="contact" class="anchor"></a>
+			      <p> noah@vdw.be | noahvdw.be</p>
+			      <form class="" action="index.html" method="post">
+			          <input type="text" name="name" value="" placeholder="Naam">
+			          <input type="text" name="email" value="" placeholder="Email">
+			          <textarea name="msg" rows="8" cols="40" placeholder="Bericht"></textarea>
+			          <input type="submit" name="name" value="Verzend">
+			      </form>
+ 			   </div><!-- end of contact-->
+
+
+ 			   <div class = "insp">
+ 			   	<a id="inspiration" class="inspirations"></a>
+ 			   	<div class "pics">
+ 			   			<p class="in">Insirations</p>
+
+	 			   		<a href="https://en.wikipedia.org/wiki/Sol_LeWitt"><img class="p1" src="img/p1.jpg"></a>
+	 			   
+	 			   	
+	 			   		<a href="http://rafsimons.com/"><img src="img/p2.jpg"></a>
+	 			   	
+	 			   	
+	 			   		<a href="http://tancamera.com/"><img src="img/p3.jpg"></a>
+	 			   
+	 			   	
+	 			   		<a href="http://www.yohjiyamamoto.co.jp/en/"><img src="img/p4.jpg"></a>
+	 			   	
+	 			   		<a href="https://www.rickowens.eu/en/BE"><img src="img/p5.jpg"></a>
+ 				</div><!-- end of pics-->
+ 			</div><!-- end of insp-->
+
+ 			   <div class="footer">
+			      <ul>
+			        <li><a data-scroll href="#home">Home </a></li>
+			        <li><a data-scroll href="#about">About </a></li>
+			        <li><a data-scroll href="#contact">Contact</a></li>
+			        <li><a href="#inspiration">Inspirations</a></li>
+			      </ul>
+			      <p>
+			      	<br>
+			        Noah vanden wyngaerd &copy; 2015
+			      </p>
+  			  </div>
+
+		</main>
+	</body>
+	 <script type="text/javascript">
+      $(document).ready(function() {
+          $(document).ready(function(){
+            $('.least-gallery').least();
+          });
+        smoothScroll.init();
+      });
+    </script>
+</html>
